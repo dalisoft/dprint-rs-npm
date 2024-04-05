@@ -1,6 +1,6 @@
 {
   "name": "dprint-rs-npm",
-  "version": "0.1.9",
+  "version": "0.45.1",
   "type": "module",
   "description": "Pluggable and configurable code formatting platform written in Rust",
   "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, David Sherret",
