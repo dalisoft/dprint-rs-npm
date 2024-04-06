@@ -1,4 +1,4 @@
 .env
-dprint
+dprint*
 .DS_Store
 node_modules
