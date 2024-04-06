@@ -1,7 +1,8 @@
 {
   "name": "dprint-rs-npm",
-  "version": "0.45.1a",
+  "version": "0.45.1",
   "type": "module",
+  "main": "prepare.js",
   "description": "Pluggable and configurable code formatting platform written in Rust",
   "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, David Sherret",
   "files": [
@@ -25,7 +26,7 @@
     "typescript"
   ],
   "dependencies": {
-    "binary2npm": "^0.2.0"
+    "binary2npm": "^0.3.0"
   },
   "repository": {
     "type": "git",
@@ -35,7 +36,5 @@
     "url": "https://github.com/dalisoft/dprint-rs-npm/issues"
   },
   "homepage": "https://github.com/dalisoft/dprint-rs-npm#readme",
-  "license": "Apache-2.0",
-  "main": "prepare.js",
-  "devDependencies": {}
+  "license": "Apache-2.0"
 }
