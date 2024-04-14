@@ -11,11 +11,11 @@ Look at [official documentation](https://dprint.dev)
 ## Installation
 
 ```sh
-npm install -g dprint-rs-npm
+npm install dalisoft/dprint-rs-npm -D
 # or
-yarn install -g dprint-rs-npm
+yarn install dalisoft/dprint-rs-npm -D
 # or
-bun add -g dprint-rs-npm
+bun add dalisoft/dprint-rs-npm -D
 ```
 
 ## Environment variables
