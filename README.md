@@ -8,6 +8,18 @@ Pluggable and configurable code formatting platform written in Rust.
 
 Look at [official documentation](https://dprint.dev)
 
+## Motivation
+
+The tools inherently exhibit rapid performance, yet the `npm` `bin.js` script introduces a discernible overhead when deployed for **Rust** projects, leading to suboptimal startup times. This solution effectively addresses and eliminates this overhead, ensuring that **Rust** projects operate with the expected efficiency. For detailed insights, please refer to the pull requests [dprint#839](https://github.com/dprint/dprint/pull/839) and [dprint#840](https://github.com/dprint/dprint/pull/840).
+
+> > This package is specifically designed for direct Command-Line Interface (CLI) interaction or as an extension for Visual Studio Code.
+
+### The functionality for npx or bunx is not included and is not anticipated to be incorporated in the future
+
+## How this is fast?
+
+This project leverages the [binary2npm](https://github.com/dalisoft/binary2npm) utility to streamline the acquisition of platform-specific binaries. The binaries provided by the author are highly optimized, surpassing the performance of the traditional **Node.js** `bin.js` approach. By invoking the binaries directly, we circumvent unnecessary overhead, resulting in significantly reduced startup times and enhanced efficiency.
+
 ## Installation
 
 ```sh
