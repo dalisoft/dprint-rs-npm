@@ -1,6 +1,6 @@
 {
   "name": "dprint-rs-npm",
-  "version": "0.47.0",
+  "version": "0.47.1",
   "type": "module",
   "main": "prepare.js",
   "description": "Pluggable and configurable code formatting platform written in Rust",
